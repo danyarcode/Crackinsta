@@ -99,7 +99,8 @@ def star():
 	timeblock=0
 	tele=0
 	point=0
-	ope = open("combo.txt","r").readlines()
+	
+	ope = open(abod,"r").readlines()
 	try:
 		for dd in ope:
 			time.sleep(1)
@@ -210,7 +211,7 @@ def star():
 	except:
 		print("Hallayak la Combo ka haya ")
 #star()
-combo_number()
+#combo_number()
 star()
 
 #Pewesta chekpinte tekam w benermo telgram bo xoshme bnermo tawaw lagall defek bo saratakan  harwaha 1 sanyash daneshm ta band nabe 
